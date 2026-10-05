@@ -23,6 +23,9 @@ If you don't [run your own `xrpld` server](../infrastructure/installation/index.
 | InFTF full history paid API via [Dhali](https://dhali.io/) | **Mainnet** | `https://xrplcluster.dhali.io/` | You must [create a paid API key](https://pay.dhali.io/?uuids=199fd80b-1776-4708-b1a1-4b2bb386435d) and embed it in the request's `Payment-Claim` header. |
 | [QuickNode](https://www.quicknode.com/chains/xrpl) | Testnet/Mainnet | N/A | QuickNode provides hosted XRPL RPC mainnet and testnet under their free and paid plans, granting flexible and reliable access to the network.
 
+For a broader comparison of third-party hosted API plans, see the [Chain.Love XRPL API directory](https://xrpl.chain.love/toolbox/apis).
+It links to provider documentation; verify Mainnet or Testnet support, JSON-RPC and WebSocket availability,
+ledger-history coverage, rate limits, and current pricing before integrating.
 
 ## Test Networks
 
